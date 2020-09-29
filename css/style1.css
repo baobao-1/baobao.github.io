@@ -1,0 +1,281 @@
+/*dùng chung 3 màn*/
+
+.aboutusline {
+    font-size: 30px;
+    color: turquoise;
+}
+.aboutusline3 {
+    font-size: 30px;
+    color: turquoise;
+    text-align: center;
+}
+.aboutusline1 {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.anh1 {
+    width: 100%;
+}
+.anh2 {
+        width: 100%;
+    }
+.anh3 {
+    width: 100%;
+}
+.newstext {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.contactschu {
+    font-size: 20px;
+}
+.footer {
+    background-color: black;
+    color: white;
+}
+.footerform input {
+     background-color: black;
+    border: none;
+    }
+.contactinput {
+    color: white;
+    background: orange;
+}
+.businesschua{
+    position: relative;
+}
+.businesschu{
+    position: absolute;
+    top: 0;
+}
+.hr {
+    border-top: 1px solid white;
+}
+
+.footerform {
+    display: flex;
+}
+    .footerinput {
+        width: calc(100% - 50px);
+    }
+.footerul {
+    list-style-type: none;
+}
+.footertext {
+    font-size: 25px;
+}
+#input22 {
+    border: none;
+    color: white;
+}
+.neww {
+    padding-bottom: 10px;
+    border-top: 1px solid gray;
+    background-color: whitesmoke;
+}
+.neww1 {
+    background-color: blue;
+    text-align: center;
+    height: 35px;
+    
+}
+.aboutusline4 {
+    font-size: 30px;
+    color: dodgerblue;
+    
+}
+.abul4 {
+    margin-bottom: 40px;
+}
+
+/*mobile*/
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    
+    
+    .header {
+        font-size: 17px;
+    }
+    .newsanh {
+    border: 1px solid black;
+        margin-bottom: 15px;
+}
+    
+    .aboutuscol {
+        padding-right: 0px !important;
+    }
+    .icon {
+        border-radius: 50%;
+    }
+    .a {
+        display: inline-block;
+        color: white;
+       font-size: 5px;
+    }
+    .b {
+        display: inline-block;
+        color: white;
+       font-size: 5px;
+    }
+    .icon {
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+    }
+    .icon1 {
+        width: 40px;
+        margin-left: -5px;
+}
+    .businessec {
+        font-size: 15px;
+    }
+    .contactinput1 {
+        width: 100%;
+        margin-bottom: 10px;
+        border: 1px solid black;
+        border-radius: 10%;
+    }
+    .anh3 {
+        width: 100%;
+    }
+    .anhanh {
+        width: 100%;
+    }
+    .input11 {
+        width: 100% !important;
+        }
+    #input22 {
+        float: right;
+        background-color: orange;
+    }
+    .anh4 {
+        width: 100%;
+        height: 100px;
+    }
+    .contactul {
+        padding: 15px;
+    }
+    .anh5 {
+        width: 100%;
+        height: 80px;
+    }
+    
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse.hide-large {
+        display: none !important;
+    }
+    
+    .header {
+        background-color: blue;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .headercolor {
+        color: white !important;
+    }
+    .headercolor:active {
+        color: yellow !important;
+    }
+    .header-title {
+        font-size: 19px;
+        color: white;
+    }
+    .businessanh1 {
+        height: 464px;
+    }
+    .businessanh {
+        padding: 0px;
+    }        
+    
+    .newsanh {
+    border: 1px solid black;  
+    }
+    .contactinput1 {
+        width: 100%;
+        margin-bottom: 10px;
+        border: 1px solid black;
+        border-radius: 10%;
+    }
+    .icon {
+        border-radius: 50%;
+    }
+    .icon1 {
+        border-radius: 50%;
+    }
+    .a {
+        display: inline-block;
+        color: white;
+       
+    }
+    .b {
+        display: inline-block;
+        color: white;
+    }
+    .icon {
+        border-radius: 50%;
+        width: 45px;
+        height: 40px;
+    }
+    .icon1 {
+        width: 45px;
+}
+    .anhanh {
+        width: 100%;
+    }
+    .input11 {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .input111{
+        margin-bottom: 27px;
+    }
+    #input22 {
+        float: right;
+        background-color: orange;
+    }
+    .anh4 {
+        width: 100%;
+        height: 300px;
+    }
+    .roww{
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .anh1 {
+        width: 100%;
+    }
+    .anh5 {
+        width: 100%;
+        height: 180px;
+    }
+    
+/*desktop*/
+@media screen and (min-width: 992px) {
+    .icon {
+        margin-left: -28px;
+        border-radius: 50%;
+        width: 60px;
+        height: 55px;
+    }
+    .icon1 {
+        margin-left: -35px;
+        width: 70px;
+    }
+    .anh3 {
+        width: 100%;
+        height: 184px;
+    }
+    .anhanh {
+        width: 300px;
+        height: 200px;
+    }
+    .anh5{
+        width: 100%;
+        height: 65px;
+    }
+   
